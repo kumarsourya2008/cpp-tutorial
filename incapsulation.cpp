@@ -11,10 +11,12 @@ public:
     string dept;
     string subject;
 
+    // setter
     void setsalary(double s){
         slalary = s;
     }
 
+    // getter
     double getsalary(){
         return slalary;
     }
