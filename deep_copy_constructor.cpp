@@ -12,7 +12,7 @@ public:
         *cgpaPtr = cgpa;
     }
 
-    Student(Student &obj){
+    Student(Student &obj){  // Deep copy constructor
         this->name = obj.name;
         cgpaPtr = new double;
         *cgpaPtr = *obj.cgpaPtr;
